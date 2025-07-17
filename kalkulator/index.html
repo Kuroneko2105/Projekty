@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="general">
+        <ul>
+            <li><input type="text" readonly id="input" ></li>
+            <li>
+                <button type="button" class="btn">%</button>
+                <button type="button" onClick="deleteInput()">CE</button>
+                <button type="button" onClick="deleteSomething()">C</button>
+                <button type="button" class="btn">/</button>
+            </li>
+            <li>
+                <button type="button" class="btn">1</button>
+                <button type="button" class="btn">2</button>
+                <button type="button" class="btn">3</button>
+                <button type="button" class="btn">*</button>
+            </li>
+            <li>
+                <button type="button" class="btn">4</button>
+                <button type="button" class="btn">5</button>
+                <button type="button" class="btn">6</button>
+                <button type="button" class="btn">-</button>
+            </li>
+            <li>
+                <button type="button" class="btn">7</button>
+                <button type="button" class="btn">8</button>
+                <button type="button" class="btn">9</button>
+                <button type="button" class="btn">+</button>
+            </li>
+            <li>
+                <button type="button" onclick="minus()">+/-</button>
+                <button type="button" class="btn">0</button>
+                <button type="button" class="btn">.</button>
+                <button type="button" onClick="result()">=</button>
+            </li>
+        </ul>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
