@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #6580B7;
+  background-image: repeating-linear-gradient(to bottom, #051937, #172849, #28395c, #384a6f, #495c83, #6580B7);
+  background-size: 100%; 
+  height: 100%;
+  background-attachment: fixed;
+  color: white;
+}
+
+.Wpis-custom {
+  padding: 20px;
+   max-width: 600px;
+  height: max-content;
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.tlo-custom {
+  background-color: #6580B7;
+  opacity: 0.4;
+  z-index: 0;
+  border-radius: 2rem;
+  position: absolute;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Wpis-custom > .position-relative {
+  z-index: 1;
+}
+
+.button-custom {
+  width: 100%;
+  background-color: #28395c;
+  border:#28395c;
+  border-radius: 2rem;
+}
+.button-custom:hover {
+  background-color: #172849;
+}
+
+.button-custom:active {
+  background-color: #051937 !important; 
+}
+
+.scroll-container {
+  max-height:70vh;
+  overflow-y: auto;
+  padding-right: 1rem;
+  scroll-behavior: smooth;
+}
+
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
